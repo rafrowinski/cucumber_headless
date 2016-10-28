@@ -23,7 +23,7 @@ public class FFSlimTest {
 		ffprofile.setPreference("plugin.state.java", 2);
 		ffprofile.setPreference("thatoneguydotnet.QuickJava.curVersion", "2.1.2");
 		ffprofile.setPreference("thatoneguydotnet.QuickJava.startupStatus.Images", 2);
-		ffprofile.setPreference("thatoneguydotnet.QuickJava.startupStatus.AnimatedImage", 2);
+		ffprofile.setPreference("extensions.thatoneguydotnet.QuickJava.startupStatus.Images", 2);
 
 		WebDriver driver = new FirefoxDriver(ffprofile);
 
