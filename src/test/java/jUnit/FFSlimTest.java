@@ -28,7 +28,7 @@ public class FFSlimTest {
 		WebDriver driver = new FirefoxDriver(ffprofile);
 
 		driver.navigate().to("https://www.google.com/search?hl=pl&site=imghp&tbm=isch&hl=pl&tbm=isch&q=france+mucha");
-		Thread.sleep(10000);
+		// Thread.sleep(10000);
 
 		DriverHelper.takeScreenshot(driver, "firefox_screenshot_" + DriverHelper.generateDateTimeString());
 		driver.quit();
